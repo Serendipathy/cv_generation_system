@@ -1,0 +1,106 @@
+{
+  "profileId": "leadership",
+  "name": "Leadership-Focused CV",
+  "description": "Emphasizes strategic leadership, P&L management, team building, and executive decision-making",
+  "version": "1.0.0",
+  "lastModified": "2026-01-27",
+  
+  "addressDisplay": {
+    "showCountry": true,
+    "showCanton": false
+  },
+  
+  "highlightFiltering": {
+    "mode": "preset",
+    "presetName": "leadership",
+    "maxHighlights": 5,
+    "manualOverrides": {
+      "forceInclude": [],
+      "forceExclude": []
+    }
+  },
+  
+  "tagWeights": {
+    "_comment": "Weights: 0-10 scale. Higher = more important for this profile",
+    
+    "scope_function": {
+      "strategy": 10,
+      "pnl": 10,
+      "finance_reporting": 7,
+      "sales": 5,
+      "business_development": 6,
+      "account_management": 4,
+      "after_sales_service": 3,
+      "operations": 6,
+      "supply_chain": 4,
+      "product_management": 5,
+      "rnd": 3,
+      "project_program_management": 6,
+      "marketing_brand": 5,
+      "governance_legal": 8,
+      "risk_management": 8,
+      "stakeholder_management": 10
+    },
+    
+    "transformation_methods": {
+      "digital_transformation": 7,
+      "agile_mvp": 5,
+      "process_improvement": 6,
+      "operational_excellence": 7,
+      "lean": 4,
+      "kpi_management": 7,
+      "systems_implementation": 6
+    },
+    
+    "value_outcome": {
+      "growth": 8,
+      "market_share": 7,
+      "cost_reduction": 6,
+      "profitability": 9,
+      "quality_improvement": 6,
+      "delivery_performance": 5,
+      "customer_satisfaction": 7,
+      "sustainability": 8
+    },
+    
+    "people_leadership": {
+      "leadership": 10,
+      "cross_cultural": 9,
+      "team_building": 9,
+      "remote_leadership": 8,
+      "coaching": 8
+    },
+    
+    "commercial_operations": {
+      "crm": 4,
+      "sales_operations": 5,
+      "contracting": 5
+    },
+    
+    "sector_domain": {
+      "photonics": 5,
+      "rfid": 5,
+      "solar_industry": 5,
+      "space_satellite": 5,
+      "telecom": 5,
+      "public_sector": 6,
+      "ip_patents": 5
+    }
+  },
+  
+  "summaryVariant": {
+    "activeVariant": "leadership"
+  },
+  
+  "competencySelection": {
+    "mode": "standardSet",
+    "competencyIds": [],
+    "maxCompetencies": 12
+  },
+  
+  "earlierExperienceDisplay": {
+    "showSection": true,
+    "defaultMode": "detailed",
+    "positionOverrides": {}
+  }
+}

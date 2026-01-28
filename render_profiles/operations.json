@@ -1,0 +1,106 @@
+{
+  "profileId": "operations",
+  "name": "Operations-Focused CV",
+  "description": "Emphasizes operational excellence, cost efficiency, quality improvement, and supply chain management",
+  "version": "1.0.0",
+  "lastModified": "2026-01-27",
+  
+  "addressDisplay": {
+    "showCountry": true,
+    "showCanton": false
+  },
+  
+  "highlightFiltering": {
+    "mode": "preset",
+    "presetName": "operations",
+    "maxHighlights": 5,
+    "manualOverrides": {
+      "forceInclude": [],
+      "forceExclude": []
+    }
+  },
+  
+  "tagWeights": {
+    "_comment": "Weights: 0-10 scale. Higher = more important for this profile",
+    
+    "scope_function": {
+      "strategy": 6,
+      "pnl": 7,
+      "finance_reporting": 6,
+      "sales": 3,
+      "business_development": 3,
+      "account_management": 3,
+      "after_sales_service": 5,
+      "operations": 10,
+      "supply_chain": 10,
+      "product_management": 5,
+      "rnd": 3,
+      "project_program_management": 7,
+      "marketing_brand": 2,
+      "governance_legal": 4,
+      "risk_management": 6,
+      "stakeholder_management": 6
+    },
+    
+    "transformation_methods": {
+      "digital_transformation": 6,
+      "agile_mvp": 4,
+      "process_improvement": 8,
+      "operational_excellence": 10,
+      "lean": 9,
+      "kpi_management": 8,
+      "systems_implementation": 7
+    },
+    
+    "value_outcome": {
+      "growth": 5,
+      "market_share": 4,
+      "cost_reduction": 10,
+      "profitability": 8,
+      "quality_improvement": 9,
+      "delivery_performance": 9,
+      "customer_satisfaction": 6,
+      "sustainability": 7
+    },
+    
+    "people_leadership": {
+      "leadership": 7,
+      "cross_cultural": 6,
+      "team_building": 7,
+      "remote_leadership": 5,
+      "coaching": 6
+    },
+    
+    "commercial_operations": {
+      "crm": 4,
+      "sales_operations": 5,
+      "contracting": 5
+    },
+    
+    "sector_domain": {
+      "photonics": 5,
+      "rfid": 5,
+      "solar_industry": 5,
+      "space_satellite": 5,
+      "telecom": 5,
+      "public_sector": 5,
+      "ip_patents": 4
+    }
+  },
+  
+  "summaryVariant": {
+    "activeVariant": "operations"
+  },
+  
+  "competencySelection": {
+    "mode": "standardSet",
+    "competencyIds": [],
+    "maxCompetencies": 12
+  },
+  
+  "earlierExperienceDisplay": {
+    "showSection": true,
+    "defaultMode": "detailed",
+    "positionOverrides": {}
+  }
+}

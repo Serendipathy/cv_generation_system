@@ -1,0 +1,106 @@
+{
+  "profileId": "technical",
+  "name": "Technical-Focused CV",
+  "description": "Emphasizes product development, R&D, technical innovation, and systems implementation",
+  "version": "1.0.0",
+  "lastModified": "2026-01-27",
+  
+  "addressDisplay": {
+    "showCountry": true,
+    "showCanton": false
+  },
+  
+  "highlightFiltering": {
+    "mode": "preset",
+    "presetName": "technical",
+    "maxHighlights": 5,
+    "manualOverrides": {
+      "forceInclude": [],
+      "forceExclude": []
+    }
+  },
+  
+  "tagWeights": {
+    "_comment": "Weights: 0-10 scale. Higher = more important for this profile",
+    
+    "scope_function": {
+      "strategy": 5,
+      "pnl": 4,
+      "finance_reporting": 3,
+      "sales": 3,
+      "business_development": 4,
+      "account_management": 2,
+      "after_sales_service": 4,
+      "operations": 5,
+      "supply_chain": 4,
+      "product_management": 9,
+      "rnd": 10,
+      "project_program_management": 7,
+      "marketing_brand": 3,
+      "governance_legal": 2,
+      "risk_management": 4,
+      "stakeholder_management": 5
+    },
+    
+    "transformation_methods": {
+      "digital_transformation": 10,
+      "agile_mvp": 9,
+      "process_improvement": 7,
+      "operational_excellence": 6,
+      "lean": 5,
+      "kpi_management": 6,
+      "systems_implementation": 9
+    },
+    
+    "value_outcome": {
+      "growth": 6,
+      "market_share": 5,
+      "cost_reduction": 5,
+      "profitability": 5,
+      "quality_improvement": 8,
+      "delivery_performance": 6,
+      "customer_satisfaction": 6,
+      "sustainability": 7
+    },
+    
+    "people_leadership": {
+      "leadership": 6,
+      "cross_cultural": 5,
+      "team_building": 6,
+      "remote_leadership": 5,
+      "coaching": 5
+    },
+    
+    "commercial_operations": {
+      "crm": 3,
+      "sales_operations": 3,
+      "contracting": 3
+    },
+    
+    "sector_domain": {
+      "photonics": 8,
+      "rfid": 8,
+      "solar_industry": 8,
+      "space_satellite": 8,
+      "telecom": 8,
+      "public_sector": 6,
+      "ip_patents": 7
+    }
+  },
+  
+  "summaryVariant": {
+    "activeVariant": "technical"
+  },
+  
+  "competencySelection": {
+    "mode": "standardSet",
+    "competencyIds": [],
+    "maxCompetencies": 12
+  },
+  
+  "earlierExperienceDisplay": {
+    "showSection": true,
+    "defaultMode": "detailed",
+    "positionOverrides": {}
+  }
+}

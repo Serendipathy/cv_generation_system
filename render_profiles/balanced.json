@@ -1,0 +1,106 @@
+{
+  "profileId": "balanced",
+  "name": "Balanced CV",
+  "description": "General-purpose CV with balanced emphasis across all competency areas",
+  "version": "1.0.0",
+  "lastModified": "2026-01-27",
+  
+  "addressDisplay": {
+    "showCountry": true,
+    "showCanton": false
+  },
+  
+  "highlightFiltering": {
+    "mode": "preset",
+    "presetName": "balanced",
+    "maxHighlights": 5,
+    "manualOverrides": {
+      "forceInclude": [],
+      "forceExclude": []
+    }
+  },
+  
+  "tagWeights": {
+    "_comment": "Weights: 0-10 scale. Balanced profile uses uniform moderate weights",
+    
+    "scope_function": {
+      "strategy": 7,
+      "pnl": 7,
+      "finance_reporting": 6,
+      "sales": 7,
+      "business_development": 7,
+      "account_management": 6,
+      "after_sales_service": 6,
+      "operations": 7,
+      "supply_chain": 6,
+      "product_management": 7,
+      "rnd": 6,
+      "project_program_management": 7,
+      "marketing_brand": 6,
+      "governance_legal": 6,
+      "risk_management": 6,
+      "stakeholder_management": 7
+    },
+    
+    "transformation_methods": {
+      "digital_transformation": 7,
+      "agile_mvp": 6,
+      "process_improvement": 7,
+      "operational_excellence": 7,
+      "lean": 6,
+      "kpi_management": 7,
+      "systems_implementation": 7
+    },
+    
+    "value_outcome": {
+      "growth": 7,
+      "market_share": 7,
+      "cost_reduction": 7,
+      "profitability": 7,
+      "quality_improvement": 7,
+      "delivery_performance": 7,
+      "customer_satisfaction": 7,
+      "sustainability": 7
+    },
+    
+    "people_leadership": {
+      "leadership": 7,
+      "cross_cultural": 7,
+      "team_building": 7,
+      "remote_leadership": 6,
+      "coaching": 6
+    },
+    
+    "commercial_operations": {
+      "crm": 6,
+      "sales_operations": 6,
+      "contracting": 6
+    },
+    
+    "sector_domain": {
+      "photonics": 6,
+      "rfid": 6,
+      "solar_industry": 6,
+      "space_satellite": 6,
+      "telecom": 6,
+      "public_sector": 6,
+      "ip_patents": 6
+    }
+  },
+  
+  "summaryVariant": {
+    "activeVariant": "default"
+  },
+  
+  "competencySelection": {
+    "mode": "standardSet",
+    "competencyIds": [],
+    "maxCompetencies": 12
+  },
+  
+  "earlierExperienceDisplay": {
+    "showSection": true,
+    "defaultMode": "detailed",
+    "positionOverrides": {}
+  }
+}

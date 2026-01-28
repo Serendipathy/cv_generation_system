@@ -1,0 +1,106 @@
+{
+  "profileId": "sales",
+  "name": "Sales-Focused CV",
+  "description": "Emphasizes sales achievement, revenue growth, client relationships, and business development",
+  "version": "1.0.0",
+  "lastModified": "2026-01-27",
+  
+  "addressDisplay": {
+    "showCountry": true,
+    "showCanton": false
+  },
+  
+  "highlightFiltering": {
+    "mode": "preset",
+    "presetName": "sales",
+    "maxHighlights": 5,
+    "manualOverrides": {
+      "forceInclude": [],
+      "forceExclude": []
+    }
+  },
+  
+  "tagWeights": {
+    "_comment": "Weights: 0-10 scale. Higher = more important for this profile",
+    
+    "scope_function": {
+      "strategy": 7,
+      "pnl": 8,
+      "finance_reporting": 5,
+      "sales": 10,
+      "business_development": 10,
+      "account_management": 10,
+      "after_sales_service": 7,
+      "operations": 3,
+      "supply_chain": 2,
+      "product_management": 4,
+      "rnd": 1,
+      "project_program_management": 5,
+      "marketing_brand": 6,
+      "governance_legal": 3,
+      "risk_management": 4,
+      "stakeholder_management": 8
+    },
+    
+    "transformation_methods": {
+      "digital_transformation": 5,
+      "agile_mvp": 3,
+      "process_improvement": 4,
+      "operational_excellence": 4,
+      "lean": 2,
+      "kpi_management": 6,
+      "systems_implementation": 5
+    },
+    
+    "value_outcome": {
+      "growth": 10,
+      "market_share": 9,
+      "cost_reduction": 4,
+      "profitability": 8,
+      "quality_improvement": 3,
+      "delivery_performance": 4,
+      "customer_satisfaction": 9,
+      "sustainability": 5
+    },
+    
+    "people_leadership": {
+      "leadership": 7,
+      "cross_cultural": 7,
+      "team_building": 6,
+      "remote_leadership": 5,
+      "coaching": 6
+    },
+    
+    "commercial_operations": {
+      "crm": 9,
+      "sales_operations": 8,
+      "contracting": 7
+    },
+    
+    "sector_domain": {
+      "photonics": 5,
+      "rfid": 5,
+      "solar_industry": 5,
+      "space_satellite": 5,
+      "telecom": 5,
+      "public_sector": 5,
+      "ip_patents": 4
+    }
+  },
+  
+  "summaryVariant": {
+    "activeVariant": "sales"
+  },
+  
+  "competencySelection": {
+    "mode": "standardSet",
+    "competencyIds": [],
+    "maxCompetencies": 12
+  },
+  
+  "earlierExperienceDisplay": {
+    "showSection": true,
+    "defaultMode": "detailed",
+    "positionOverrides": {}
+  }
+}

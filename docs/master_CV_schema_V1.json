@@ -1,0 +1,201 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
+  "_version": "1.0.0",
+  "_lastModified": "YYYY-MM-DDTHH:MM:SS+TZ",
+  "_comment": "Master CV Database - All content, no limits, no configuration",
+  
+  "basics": {
+    "name": "",
+    "label": "",
+    "image": "",
+    "email": "",
+    "phone": "",
+    "url": "",
+    
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "canton": "",
+      "countryCode": "",
+      "country": ""
+    },
+    
+    "profiles": [
+      {
+        "network": "",
+        "username": "",
+        "url": ""
+      }
+    ]
+  },
+  
+  "summaries": {
+    "_comment": "Use Case 3: Store all summary variants",
+    "default": "",
+    "variants": {
+      "sales": "",
+      "operations": "",
+      "technical": "",
+      "leadership": "",
+      "general": ""
+    }
+  },
+  
+  "work": [
+    {
+      "_comment": "Store ALL positions 2000-2025, unlimited highlights per position",
+      "id": "",
+      "company": "",
+      "location": "",
+      "description": "",
+      "title": "",
+      "url": "",
+      "startDate": "YYYY-MM",
+      "endDate": "YYYY-MM",
+      "summary": "Brief role overview - stored for ALL positions",
+      "isEarlierExperience": false,
+      "earlierExperienceGroup": "",
+      
+      "highlights": [
+        {
+          "_comment": "NO LIMIT - store all achievements (8, 10, 15, whatever exists)",
+          "id": "",
+          "text": "",
+          "tags": [],
+          "impactScore": 0,
+          "metrics": {},
+          "keywords": []
+        }
+      ]
+    }
+  ],
+  
+  "education": [
+    {
+      "institution": "",
+      "url": "",
+      "area": "",
+      "studyType": "",
+      "startDate": "YYYY-MM",
+      "endDate": "YYYY-MM",
+      "score": "",
+      "courses": []
+    }
+  ],
+  
+  "competencies": {
+    "_comment": "Use Case 4: Complete competency database",
+    
+    "categories": [
+      {
+        "id": "cat_strategic",
+        "name": "Strategic Leadership",
+        "description": "Business strategy, vision, planning",
+        "order": 1
+      },
+      {
+        "id": "cat_technology",
+        "name": "Technology & Innovation",
+        "description": "Digital transformation, agile, tech implementation",
+        "order": 2
+      },
+      {
+        "id": "cat_operations",
+        "name": "Operations & Process",
+        "description": "Operational excellence, cost optimization, process improvement",
+        "order": 3
+      },
+      {
+        "id": "cat_sales",
+        "name": "Sales & Commercial",
+        "description": "Sales networks, CRM, business development",
+        "order": 4
+      },
+      {
+        "id": "cat_financial",
+        "name": "Financial Management",
+        "description": "P&L, budgeting, financial planning",
+        "order": 5
+      },
+      {
+        "id": "cat_people",
+        "name": "People, Culture & Change",
+        "description": "Cross-cultural teams, talent development, change management",
+        "order": 6
+      }
+    ],
+    
+    "database": [
+      {
+        "_comment": "ALL competencies - NO LIMIT - add as many as exist",
+        "id": "",
+        "name": "",
+        "categoryId": "",
+        "description": "",
+        "keywords": [],
+        "isCustom": false,
+        "dateAdded": "YYYY-MM-DD"
+      }
+    ],
+    
+    "standardSet": {
+      "_comment": "Default selection for general CV - array order = display order",
+      "competencyIds": []
+    }
+  },
+  
+  "skills": {
+    "_comment": "Technical/professional skills - separate from core competencies",
+    "categories": [
+      {
+        "name": "",
+        "level": "Expert|Advanced|Intermediate|Basic",
+        "keywords": []
+      }
+    ]
+  },
+  
+  "languages": [
+    {
+      "language": "",
+      "fluency": "Native|Fluent|Business|Conversational|Basic",
+      "certificationLevel": ""
+    }
+  ],
+  
+  "certificates": [
+    {
+      "name": "",
+      "date": "YYYY-MM",
+      "issuer": "",
+      "url": ""
+    }
+  ],
+  
+  "projects": [
+    {
+      "name": "",
+      "description": "",
+      "startDate": "YYYY-MM",
+      "endDate": "YYYY-MM",
+      "highlights": [],
+      "keywords": [],
+      "roles": [],
+      "url": ""
+    }
+  ],
+  
+  "interests": [
+    {
+      "name": "",
+      "keywords": []
+    }
+  ],
+  
+  "meta": {
+    "canonical": "",
+    "version": "",
+    "lastModified": "YYYY-MM-DDTHH:MM:SS+TZ"
+  }
+}
